@@ -1,0 +1,124 @@
+.cards-carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.cards-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* ----- CARD STYLES ----- */
+.carousel-card-item {
+  position: absolute;
+  width: 70%;
+  max-width: 1200px;
+  min-height: 300px;
+  border-radius: 20px;
+  color: #fff;
+  padding: 20px;
+  transition: all 0.6s ease-in-out;
+  opacity: 0;
+  transform: scale(0.6);
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* ----- ACTIVE CARD ----- */
+.carousel-card-item.active {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+  pointer-events: auto;
+  z-index: 3;
+}
+
+/* ----- NEIGHBOR CARDS ----- */
+.carousel-card-item.prev-card {
+  transform: translateX(-40%) scale(0.8);
+  opacity: 0.6;
+  z-index: 2;
+  filter: blur(1px);
+}
+
+.carousel-card-item.next-card {
+  transform: translateX(40%) scale(0.8);
+  opacity: 0.6;
+  z-index: 2;
+  filter: blur(1px);
+}
+
+/* ----- HIDDEN CARDS ----- */
+.carousel-card-item.hidden-card {
+  opacity: 0;
+  z-index: 0;
+  transform: scale(0.6);
+}
+
+/* ----- NAV BUTTONS ----- */
+.carousel-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #000000;
+  font-size: 2rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  backdrop-filter: blur(6px);
+  margin: 0 100px;
+}
+
+.carousel-nav-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Posiciones de los botones */
+.carousel-nav-btn.prev {
+  left: 10px;
+}
+
+.carousel-nav-btn.next {
+  right: 10px;
+}
+
+/* ----- RESPONSIVE ----- */
+@media (max-width: 768px) {
+  .carousel-card-item {
+    width: 85%;
+    min-height: 240px;
+  }
+
+  .carousel-card-item.prev-card,
+  .carousel-card-item.next-card {
+    transform: translateX(0) scale(0.8);
+    opacity: 0.5;
+  }
+
+  .carousel-nav-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.6rem;
+  }
+  .carousel-nav-btn{
+    margin: 0 20px;
+  }
+}

@@ -1,0 +1,13 @@
+.all-rooms{
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.section-main-header{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
