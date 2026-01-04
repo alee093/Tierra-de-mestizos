@@ -4,35 +4,35 @@ const ALL_ROOMS_AND_SPACES = [
     description: "Habitación matrimonial en planta baja con baño privado",
     images: [
       {
-        src: "../public/HabitacionArrayan/habitacion-arrayan-1.jpg",
+        src: "/HabitacionArrayan/habitacion-arrayan-1.jpg",
         alt: "Habitacion Arrayan 1"
       },
       {
-        src: "../public/HabitacionArrayan/habitacion-arrayan-2.jpg",
+        src: "/HabitacionArrayan/habitacion-arrayan-2.jpg",
         alt: "Habitacion Arrayan 2"
       },
       {
-        src: "../public/HabitacionArrayan/habitacion-arrayan-3.jpg",
+        src: "/HabitacionArrayan/habitacion-arrayan-3.jpg",
         alt: "Habitacion Arrayan 3"
       },
       {
-        src: "../public/HabitacionArrayan/habitacion-arrayan-bano-1.jpg",
+        src: "/HabitacionArrayan/habitacion-arrayan-bano-1.jpg",
         alt: "Habitacion Arrayan bano"
       },
       {
-        src: "../public/HabitacionArrayan/habitacion-arrayan-bano-2.jpg",
+        src: "/HabitacionArrayan/habitacion-arrayan-bano-2.jpg",
         alt: "Habitacion Arrayan bano"
       },
       {
-        src: "../public/HabitacionArrayan/habitacion-arrayan-escalera.jpg",
+        src: "/HabitacionArrayan/habitacion-arrayan-escalera.jpg",
         alt: "Habitacion Arrayan escalera"
       },
       {
-        src: "../public/HabitacionArrayan/habitacion-arrayan-escalera-2.jpg",
+        src: "/HabitacionArrayan/habitacion-arrayan-escalera-2.jpg",
         alt: "Habitacion Arrayan escalera"
       },
       {
-        src: "../public/HabitacionArrayan/habitacion-arrayan-vista.jpg",
+        src: "/HabitacionArrayan/habitacion-arrayan-vista.jpg",
         alt: "Habitacion Arrayan vista"
       }
     ],
@@ -229,34 +229,34 @@ const ALL_ROOMS_AND_SPACES = [
     description: "Espacio en común de las habitaciones (Arrayan, Cipres y Luz) en el primer piso",
     images: [
       {
-        src: "../public/EspacioCompartido/espacio-compartido-living.jpg",
+        src: "/EspacioCompartido/espacio-compartido-living.jpg",
         alt: "Espacio Compartido Living"},
       {
-        src: "../public/EspacioCompartido/espacio-compartido-living-2.jpg",
+        src: "/EspacioCompartido/espacio-compartido-living-2.jpg",
         alt: "Espacio Compartido Living"
       },
       {
-        src: "../public/EspacioCompartido/espacio-compartido-living-3.jpg",
+        src: "/EspacioCompartido/espacio-compartido-living-3.jpg",
         alt: "Espacio Compartido Living"
       },
       {
-        src: "../public/EspacioCompartido/espacio-compartido-living-4.jpg",
+        src: "/EspacioCompartido/espacio-compartido-living-4.jpg",
         alt: "Espacio Compartido Living"
       },
       {
-        src: "../public/EspacioCompartido/espacio-compartido-living-5.jpg",
+        src: "/EspacioCompartido/espacio-compartido-living-5.jpg",
         alt: "Espacio Compartido Living"
       },
       {
-        src: "../public/EspacioCompartido/espacio-compartido-cocina.jpg",
+        src: "/EspacioCompartido/espacio-compartido-cocina.jpg",
         alt: "Espacio Compartido Cocina"
       },
       {
-        src: "../public/EspacioCompartido/espacio-compartido-entrada.jpg",
+        src: "/EspacioCompartido/espacio-compartido-entrada.jpg",
         alt: "Espacio Compartido Entrada"
       },
       {
-        src: "../public/EspacioCompartido/espacio-compartido-escalera.jpg",
+        src: "/EspacioCompartido/espacio-compartido-escalera.jpg",
         alt: "Espacio Compartido Escalera"
       }
   
@@ -285,7 +285,7 @@ const ALL_ROOMS_AND_SPACES = [
     description: "Exterior de las habitaciones y espacios comunes",
     images: [
       {
-        src: "../public/Exterior/exterior.jpg",
+        src: "/Exterior/exterior.jpg",
         alt: "Exterior"
       },
       {
