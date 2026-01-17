@@ -43,7 +43,7 @@ const ALL_ROOMS_AND_SPACES = [
       },
       {
         icon: "bi bi-droplet-fill",
-        description: "Baño Privado"
+        description: "habitacion privada con baño Privado"
       },
       {
         icon: "bi bi-snow2",
@@ -51,11 +51,7 @@ const ALL_ROOMS_AND_SPACES = [
       },
       {
         icon: "bi bi-people-fill",
-        description: "Con Espacio Compartido"
-      },
-      {
-        icon: "bi bi-wifi",
-        description: "Wi-Fi"
+        description: "Con desayunador compartido"
       }
     ]
 
@@ -92,7 +88,7 @@ const ALL_ROOMS_AND_SPACES = [
       },
       {
         icon: "bi bi-droplet-fill",
-        description: "Baño Privado"
+        description: "Habitacion privada con baño Privado"
       },
       {
         icon: "bi bi-snow2",
@@ -100,11 +96,7 @@ const ALL_ROOMS_AND_SPACES = [
       },
       {
         icon: "bi bi-fork-knife",
-        description: "Comedor Completo"
-      },
-      {
-        icon: "bi bi-wifi",
-        description: "Wi-Fi"
+        description: "Desayunador Completo"
       }
     ]
   },
@@ -144,7 +136,7 @@ const ALL_ROOMS_AND_SPACES = [
       },
       {
         icon: "bi bi-droplet-fill",
-        description: "Baño Privado"
+        description: "Habitacion privada con baño Privado"
       },
       {
         icon: "bi bi-snow2",
@@ -152,11 +144,7 @@ const ALL_ROOMS_AND_SPACES = [
       },
       {
         icon: "bi bi-fork-knife",
-        description: "Comedor Completo"
-      },
-      {
-        icon: "bi bi-wifi",
-        description: "Wi-Fi"
+        description: "Desayunador Completo"
       }
     ]
   },
@@ -183,13 +171,13 @@ const ALL_ROOMS_AND_SPACES = [
         description: "Elección de Baño Privado"
       },
       {
-        icon: "bi bi-people-fill",
-        description: "Con Espacio Compartido"
+        icon: "bi bi-door-closed-fill",
+        description: "Habitacion privada"
       },
       {
-        icon: "bi bi-wifi",
-        description: "Wi-Fi"
-      }
+        icon: "bi bi-people-fill",
+        description: "Con desayunador compartido"
+      },
     ]
   },
   {
@@ -215,13 +203,13 @@ const ALL_ROOMS_AND_SPACES = [
         description: "Elección de Baño Privado"
       },
       {
-        icon: "bi bi-people-fill",
-        description: "Con Espacio Compartido"
+        icon: "bi bi-door-closed-fill",
+        description: "Habitacion privada"
       },
       {
-        icon: "bi bi-wifi",
-        description: "Wi-Fi"
-      }
+        icon: "bi bi-people-fill",
+        description: "Con desayunador compartido"
+      },
     ]
   },
   {
@@ -268,11 +256,7 @@ const ALL_ROOMS_AND_SPACES = [
       },
       {
         icon: "bi bi-cup-hot-fill",
-        description: "Cocina Completa"
-      },
-      {
-        icon: "bi bi-fork-knife",
-        description: "Comedor Completo"
+        description: "Desayunador completo"
       },
       {
         icon: "bi bi-wifi",
@@ -285,6 +269,10 @@ const ALL_ROOMS_AND_SPACES = [
     description: "Exterior de las habitaciones y espacios comunes",
     images: [
       {
+        src: "/Exterior/exterior-3.jpg",
+        alt: "Exterior"
+      },
+      {
         src: "/Exterior/exterior.jpg",
         alt: "Exterior"
       },
@@ -292,10 +280,6 @@ const ALL_ROOMS_AND_SPACES = [
         src: "/Exterior/exterior-2.jpg",
         alt: "Exterior"
       },
-      {
-        src: "/Exterior/exterior-3.jpg",
-        alt: "Exterior"
-      }
     ],
     amenities: [
       {

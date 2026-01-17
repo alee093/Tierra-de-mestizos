@@ -8,9 +8,9 @@ const faqs = [
       "El alojamiento se encuentra en Villa La Angostura, en una zona tranquila y muy bien ubicada, con fácil acceso a los principales puntos turísticos."
   },
   {
-    question: "¿Los departamentos están equipados?",
+    question: "¿Con que equipamientos cuenta el alojamiento?",
     answer:
-      "Sí, las habitaciones cuentan con vajilla, utensillos, tostadora, pava electrica, microondas, cafetera y heladera/frigobar"
+      "Cuentan con vajilla, utensillos, tostadora, pava electrica, microondas, cafetera y heladera/frigobar."
   },
   {
     question: "¿Se puede consultar disponibilidad por WhatsApp?",
